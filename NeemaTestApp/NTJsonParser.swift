@@ -19,6 +19,11 @@ protocol NTFeedParserDelegate {
 }
 
 class NTJsonParser: NSObject {
+    
+    // MARK: Constants 
+    let NAME = "name"
+    let DATA = "data"
+    
     var delegate: NTFeedParserDelegate?
     
     var feedURL: String
@@ -78,9 +83,9 @@ class NTJsonParser: NSObject {
         var items = [[String:String]]()
         for result in feedParser! {
             let (_, json) = result
-            let name = json["name"].stringValue
+            let name = json[NAME].stringValue
             let website = json["website"].stringValue
-            items.append(["name": name, "data": website])
+            items.append([NAME: name, DATA: website])
         }
         self.delegate?.feedParser(self, successfullyParsedURL: self.feedURL, withObjects: items)
     }

@@ -18,7 +18,7 @@
 		CEDFAEE41DF05448000DD737 /* NTJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEE31DF05448000DD737 /* NTJsonParser.swift */; };
 		CEDFAEE61DF06214000DD737 /* NTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEE51DF06214000DD737 /* NTCell.swift */; };
 		CEDFAEEA1DF0697D000DD737 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFAEE91DF0697D000DD737 /* placeholder.png */; };
-		CEDFAEEC1DF06B39000DD737 /* NTStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEEB1DF06B39000DD737 /* NTStore.swift */; };
+		CEDFAEEC1DF06B39000DD737 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEEB1DF06B39000DD737 /* UIImageView+Download.swift */; };
 		CEDFAEEE1DF0730A000DD737 /* NTHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEED1DF0730A000DD737 /* NTHeaderCell.swift */; };
 		CEDFAEF01DF07694000DD737 /* NTItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEEF1DF07694000DD737 /* NTItemViewController.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +58,7 @@
 		CEDFAEE31DF05448000DD737 /* NTJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTJsonParser.swift; sourceTree = "<group>"; };
 		CEDFAEE51DF06214000DD737 /* NTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTCell.swift; sourceTree = "<group>"; };
 		CEDFAEE91DF0697D000DD737 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = SOURCE_ROOT; };
-		CEDFAEEB1DF06B39000DD737 /* NTStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTStore.swift; sourceTree = "<group>"; };
+		CEDFAEEB1DF06B39000DD737 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		CEDFAEED1DF0730A000DD737 /* NTHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTHeaderCell.swift; sourceTree = "<group>"; };
 		CEDFAEEF1DF07694000DD737 /* NTItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +116,7 @@
 				CEDFAEE51DF06214000DD737 /* NTCell.swift */,
 				CEDFAEED1DF0730A000DD737 /* NTHeaderCell.swift */,
 				CEDFAEB31DF04B35000DD737 /* NTRootViewController.swift */,
-				CEDFAEEB1DF06B39000DD737 /* NTStore.swift */,
+				CEDFAEEB1DF06B39000DD737 /* UIImageView+Download.swift */,
 				CEDFAEB51DF04B36000DD737 /* Main.storyboard */,
 				CEDFAEB81DF04B36000DD737 /* Assets.xcassets */,
 				CEDFAEBA1DF04B36000DD737 /* LaunchScreen.storyboard */,
@@ -283,7 +283,7 @@
 			files = (
 				CEDFAEB41DF04B35000DD737 /* NTRootViewController.swift in Sources */,
 				CEDFAEB21DF04B35000DD737 /* AppDelegate.swift in Sources */,
-				CEDFAEEC1DF06B39000DD737 /* NTStore.swift in Sources */,
+				CEDFAEEC1DF06B39000DD737 /* UIImageView+Download.swift in Sources */,
 				CEDFAEEE1DF0730A000DD737 /* NTHeaderCell.swift in Sources */,
 				CEDFAEE41DF05448000DD737 /* NTJsonParser.swift in Sources */,
 				CEDFAEF01DF07694000DD737 /* NTItemViewController.swift in Sources */,

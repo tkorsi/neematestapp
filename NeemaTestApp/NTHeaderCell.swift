@@ -11,5 +11,4 @@ import UIKit
 class NTHeaderCell: UITableViewCell {
     
     @IBOutlet weak var headerPicture: UIImageView!
-
 }

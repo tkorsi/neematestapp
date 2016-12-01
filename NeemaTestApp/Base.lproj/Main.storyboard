@@ -78,7 +78,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5KK-9P-URT">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5KK-9P-URT">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="124.5"/>
                                         </imageView>
                                     </subviews>
@@ -89,7 +89,6 @@
                                         <constraint firstAttribute="trailing" secondItem="5KK-9P-URT" secondAttribute="trailing" id="xZq-9d-NKO"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="1" green="0.53521690715430981" blue="0.45155386833421551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="headerPicture" destination="5KK-9P-URT" id="mEH-5r-ZBz"/>
                                 </connections>

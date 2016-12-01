@@ -71,9 +71,6 @@ class NTRootViewController: UITableViewController, NTFeedParserDelegate{
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView = self.tableView.dequeueReusableCell(withIdentifier: "HeaderCell") as! NTHeaderCell
         headerView.headerPicture?.downloadedFrom(link: headerImageString)
-        
-//        headerView.headerPicture?.layer.borderColor = UIColor.red.cgColor
-//        headerView.headerPicture?.layer.borderWidth = 2.0
 
         return headerView
     }
