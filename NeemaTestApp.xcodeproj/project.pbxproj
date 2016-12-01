@@ -14,6 +14,13 @@
 		CEDFAEBC1DF04B36000DD737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFAEBA1DF04B36000DD737 /* LaunchScreen.storyboard */; };
 		CEDFAEC71DF04B36000DD737 /* NeemaTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEC61DF04B36000DD737 /* NeemaTestAppTests.swift */; };
 		CEDFAED21DF04B36000DD737 /* NeemaTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAED11DF04B36000DD737 /* NeemaTestAppUITests.swift */; };
+		CEDFAEE21DF05124000DD737 /* SwiftyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEE11DF05124000DD737 /* SwiftyJson.swift */; };
+		CEDFAEE41DF05448000DD737 /* NTJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEE31DF05448000DD737 /* NTJsonParser.swift */; };
+		CEDFAEE61DF06214000DD737 /* NTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEE51DF06214000DD737 /* NTCell.swift */; };
+		CEDFAEEA1DF0697D000DD737 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFAEE91DF0697D000DD737 /* placeholder.png */; };
+		CEDFAEEC1DF06B39000DD737 /* NTStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEEB1DF06B39000DD737 /* NTStore.swift */; };
+		CEDFAEEE1DF0730A000DD737 /* NTHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEED1DF0730A000DD737 /* NTHeaderCell.swift */; };
+		CEDFAEF01DF07694000DD737 /* NTItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEEF1DF07694000DD737 /* NTItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		CEDFAECD1DF04B36000DD737 /* NeemaTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeemaTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDFAED11DF04B36000DD737 /* NeemaTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeemaTestAppUITests.swift; sourceTree = "<group>"; };
 		CEDFAED31DF04B36000DD737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFAEE11DF05124000DD737 /* SwiftyJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJson.swift; sourceTree = "<group>"; };
+		CEDFAEE31DF05448000DD737 /* NTJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTJsonParser.swift; sourceTree = "<group>"; };
+		CEDFAEE51DF06214000DD737 /* NTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTCell.swift; sourceTree = "<group>"; };
+		CEDFAEE91DF0697D000DD737 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = SOURCE_ROOT; };
+		CEDFAEEB1DF06B39000DD737 /* NTStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTStore.swift; sourceTree = "<group>"; };
+		CEDFAEED1DF0730A000DD737 /* NTHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTHeaderCell.swift; sourceTree = "<group>"; };
+		CEDFAEEF1DF07694000DD737 /* NTItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NTItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		CEDFAEB01DF04B35000DD737 /* NeemaTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEDFAEE91DF0697D000DD737 /* placeholder.png */,
 				CEDFAEB11DF04B35000DD737 /* AppDelegate.swift */,
+				CEDFAEE51DF06214000DD737 /* NTCell.swift */,
+				CEDFAEED1DF0730A000DD737 /* NTHeaderCell.swift */,
 				CEDFAEB31DF04B35000DD737 /* NTRootViewController.swift */,
+				CEDFAEEB1DF06B39000DD737 /* NTStore.swift */,
 				CEDFAEB51DF04B36000DD737 /* Main.storyboard */,
 				CEDFAEB81DF04B36000DD737 /* Assets.xcassets */,
 				CEDFAEBA1DF04B36000DD737 /* LaunchScreen.storyboard */,
 				CEDFAEBD1DF04B36000DD737 /* Info.plist */,
+				CEDFAEE31DF05448000DD737 /* NTJsonParser.swift */,
+				CEDFAEE11DF05124000DD737 /* SwiftyJson.swift */,
+				CEDFAEEF1DF07694000DD737 /* NTItemViewController.swift */,
 			);
 			path = NeemaTestApp;
 			sourceTree = "<group>";
@@ -233,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDFAEBC1DF04B36000DD737 /* LaunchScreen.storyboard in Resources */,
+				CEDFAEEA1DF0697D000DD737 /* placeholder.png in Resources */,
 				CEDFAEB91DF04B36000DD737 /* Assets.xcassets in Resources */,
 				CEDFAEB71DF04B36000DD737 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +283,12 @@
 			files = (
 				CEDFAEB41DF04B35000DD737 /* NTRootViewController.swift in Sources */,
 				CEDFAEB21DF04B35000DD737 /* AppDelegate.swift in Sources */,
+				CEDFAEEC1DF06B39000DD737 /* NTStore.swift in Sources */,
+				CEDFAEEE1DF0730A000DD737 /* NTHeaderCell.swift in Sources */,
+				CEDFAEE41DF05448000DD737 /* NTJsonParser.swift in Sources */,
+				CEDFAEF01DF07694000DD737 /* NTItemViewController.swift in Sources */,
+				CEDFAEE21DF05124000DD737 /* SwiftyJson.swift in Sources */,
+				CEDFAEE61DF06214000DD737 /* NTCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
