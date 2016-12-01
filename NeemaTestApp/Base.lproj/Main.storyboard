@@ -71,14 +71,14 @@
                                     <segue destination="I0T-NM-wb7" kind="show" id="ghO-ce-570"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderCell" rowHeight="125" id="DFs-XC-CcL" customClass="NTHeaderCell" customModule="NeemaTestApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HeaderCell" rowHeight="125" id="DFs-XC-CcL" customClass="NTHeaderCell" customModule="NeemaTestApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="153" width="375" height="125"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DFs-XC-CcL" id="vrQ-Uf-s2x">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="124"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5KK-9P-URT">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5KK-9P-URT">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="124.5"/>
                                         </imageView>
                                     </subviews>
@@ -89,6 +89,7 @@
                                         <constraint firstAttribute="trailing" secondItem="5KK-9P-URT" secondAttribute="trailing" id="xZq-9d-NKO"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <connections>
                                     <outlet property="headerPicture" destination="5KK-9P-URT" id="mEH-5r-ZBz"/>
                                 </connections>
