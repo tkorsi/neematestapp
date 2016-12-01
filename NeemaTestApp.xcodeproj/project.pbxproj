@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEDFAEB21DF04B35000DD737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEB11DF04B35000DD737 /* AppDelegate.swift */; };
+		CEDFAEB41DF04B35000DD737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEB31DF04B35000DD737 /* ViewController.swift */; };
+		CEDFAEB71DF04B36000DD737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFAEB51DF04B36000DD737 /* Main.storyboard */; };
+		CEDFAEB91DF04B36000DD737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFAEB81DF04B36000DD737 /* Assets.xcassets */; };
+		CEDFAEBC1DF04B36000DD737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFAEBA1DF04B36000DD737 /* LaunchScreen.storyboard */; };
+		CEDFAEC71DF04B36000DD737 /* NeemaTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAEC61DF04B36000DD737 /* NeemaTestAppTests.swift */; };
+		CEDFAED21DF04B36000DD737 /* NeemaTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFAED11DF04B36000DD737 /* NeemaTestAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDFAEC31DF04B36000DD737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDFAEA61DF04B35000DD737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDFAEAD1DF04B35000DD737;
+			remoteInfo = NeemaTestApp;
+		};
+		CEDFAECE1DF04B36000DD737 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDFAEA61DF04B35000DD737 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEDFAEAD1DF04B35000DD737;
+			remoteInfo = NeemaTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEDFAEAE1DF04B35000DD737 /* NeemaTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeemaTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDFAEB11DF04B35000DD737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDFAEB31DF04B35000DD737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDFAEB61DF04B36000DD737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDFAEB81DF04B36000DD737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDFAEBB1DF04B36000DD737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDFAEBD1DF04B36000DD737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFAEC21DF04B36000DD737 /* NeemaTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeemaTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDFAEC61DF04B36000DD737 /* NeemaTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeemaTestAppTests.swift; sourceTree = "<group>"; };
+		CEDFAEC81DF04B36000DD737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDFAECD1DF04B36000DD737 /* NeemaTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeemaTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDFAED11DF04B36000DD737 /* NeemaTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeemaTestAppUITests.swift; sourceTree = "<group>"; };
+		CEDFAED31DF04B36000DD737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDFAEAB1DF04B35000DD737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFAEBF1DF04B36000DD737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFAECA1DF04B36000DD737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEDFAEA51DF04B35000DD737 = {
+			isa = PBXGroup;
+			children = (
+				CEDFAEB01DF04B35000DD737 /* NeemaTestApp */,
+				CEDFAEC51DF04B36000DD737 /* NeemaTestAppTests */,
+				CEDFAED01DF04B36000DD737 /* NeemaTestAppUITests */,
+				CEDFAEAF1DF04B35000DD737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDFAEAF1DF04B35000DD737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFAEAE1DF04B35000DD737 /* NeemaTestApp.app */,
+				CEDFAEC21DF04B36000DD737 /* NeemaTestAppTests.xctest */,
+				CEDFAECD1DF04B36000DD737 /* NeemaTestAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDFAEB01DF04B35000DD737 /* NeemaTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFAEB11DF04B35000DD737 /* AppDelegate.swift */,
+				CEDFAEB31DF04B35000DD737 /* ViewController.swift */,
+				CEDFAEB51DF04B36000DD737 /* Main.storyboard */,
+				CEDFAEB81DF04B36000DD737 /* Assets.xcassets */,
+				CEDFAEBA1DF04B36000DD737 /* LaunchScreen.storyboard */,
+				CEDFAEBD1DF04B36000DD737 /* Info.plist */,
+			);
+			path = NeemaTestApp;
+			sourceTree = "<group>";
+		};
+		CEDFAEC51DF04B36000DD737 /* NeemaTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFAEC61DF04B36000DD737 /* NeemaTestAppTests.swift */,
+				CEDFAEC81DF04B36000DD737 /* Info.plist */,
+			);
+			path = NeemaTestAppTests;
+			sourceTree = "<group>";
+		};
+		CEDFAED01DF04B36000DD737 /* NeemaTestAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFAED11DF04B36000DD737 /* NeemaTestAppUITests.swift */,
+				CEDFAED31DF04B36000DD737 /* Info.plist */,
+			);
+			path = NeemaTestAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDFAEAD1DF04B35000DD737 /* NeemaTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDFAED61DF04B36000DD737 /* Build configuration list for PBXNativeTarget "NeemaTestApp" */;
+			buildPhases = (
+				CEDFAEAA1DF04B35000DD737 /* Sources */,
+				CEDFAEAB1DF04B35000DD737 /* Frameworks */,
+				CEDFAEAC1DF04B35000DD737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeemaTestApp;
+			productName = NeemaTestApp;
+			productReference = CEDFAEAE1DF04B35000DD737 /* NeemaTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEDFAEC11DF04B36000DD737 /* NeemaTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDFAED91DF04B36000DD737 /* Build configuration list for PBXNativeTarget "NeemaTestAppTests" */;
+			buildPhases = (
+				CEDFAEBE1DF04B36000DD737 /* Sources */,
+				CEDFAEBF1DF04B36000DD737 /* Frameworks */,
+				CEDFAEC01DF04B36000DD737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDFAEC41DF04B36000DD737 /* PBXTargetDependency */,
+			);
+			name = NeemaTestAppTests;
+			productName = NeemaTestAppTests;
+			productReference = CEDFAEC21DF04B36000DD737 /* NeemaTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEDFAECC1DF04B36000DD737 /* NeemaTestAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDFAEDC1DF04B36000DD737 /* Build configuration list for PBXNativeTarget "NeemaTestAppUITests" */;
+			buildPhases = (
+				CEDFAEC91DF04B36000DD737 /* Sources */,
+				CEDFAECA1DF04B36000DD737 /* Frameworks */,
+				CEDFAECB1DF04B36000DD737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEDFAECF1DF04B36000DD737 /* PBXTargetDependency */,
+			);
+			name = NeemaTestAppUITests;
+			productName = NeemaTestAppUITests;
+			productReference = CEDFAECD1DF04B36000DD737 /* NeemaTestAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDFAEA61DF04B35000DD737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Iegor Shapanov";
+				TargetAttributes = {
+					CEDFAEAD1DF04B35000DD737 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CEDFAEC11DF04B36000DD737 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEDFAEAD1DF04B35000DD737;
+					};
+					CEDFAECC1DF04B36000DD737 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CEDFAEAD1DF04B35000DD737;
+					};
+				};
+			};
+			buildConfigurationList = CEDFAEA91DF04B35000DD737 /* Build configuration list for PBXProject "NeemaTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDFAEA51DF04B35000DD737;
+			productRefGroup = CEDFAEAF1DF04B35000DD737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDFAEAD1DF04B35000DD737 /* NeemaTestApp */,
+				CEDFAEC11DF04B36000DD737 /* NeemaTestAppTests */,
+				CEDFAECC1DF04B36000DD737 /* NeemaTestAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDFAEAC1DF04B35000DD737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFAEBC1DF04B36000DD737 /* LaunchScreen.storyboard in Resources */,
+				CEDFAEB91DF04B36000DD737 /* Assets.xcassets in Resources */,
+				CEDFAEB71DF04B36000DD737 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFAEC01DF04B36000DD737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFAECB1DF04B36000DD737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDFAEAA1DF04B35000DD737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFAEB41DF04B35000DD737 /* ViewController.swift in Sources */,
+				CEDFAEB21DF04B35000DD737 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFAEBE1DF04B36000DD737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFAEC71DF04B36000DD737 /* NeemaTestAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEDFAEC91DF04B36000DD737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEDFAED21DF04B36000DD737 /* NeemaTestAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEDFAEC41DF04B36000DD737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDFAEAD1DF04B35000DD737 /* NeemaTestApp */;
+			targetProxy = CEDFAEC31DF04B36000DD737 /* PBXContainerItemProxy */;
+		};
+		CEDFAECF1DF04B36000DD737 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEDFAEAD1DF04B35000DD737 /* NeemaTestApp */;
+			targetProxy = CEDFAECE1DF04B36000DD737 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEDFAEB51DF04B36000DD737 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDFAEB61DF04B36000DD737 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDFAEBA1DF04B36000DD737 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDFAEBB1DF04B36000DD737 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDFAED41DF04B36000DD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDFAED51DF04B36000DD737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDFAED71DF04B36000DD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeemaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iegor.shapanov.NeemaTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CEDFAED81DF04B36000DD737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NeemaTestApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iegor.shapanov.NeemaTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CEDFAEDA1DF04B36000DD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeemaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iegor.shapanov.NeemaTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeemaTestApp.app/NeemaTestApp";
+			};
+			name = Debug;
+		};
+		CEDFAEDB1DF04B36000DD737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NeemaTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iegor.shapanov.NeemaTestAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeemaTestApp.app/NeemaTestApp";
+			};
+			name = Release;
+		};
+		CEDFAEDD1DF04B36000DD737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NeemaTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iegor.shapanov.NeemaTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeemaTestApp;
+			};
+			name = Debug;
+		};
+		CEDFAEDE1DF04B36000DD737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NeemaTestAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.iegor.shapanov.NeemaTestAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NeemaTestApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDFAEA91DF04B35000DD737 /* Build configuration list for PBXProject "NeemaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFAED41DF04B36000DD737 /* Debug */,
+				CEDFAED51DF04B36000DD737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDFAED61DF04B36000DD737 /* Build configuration list for PBXNativeTarget "NeemaTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFAED71DF04B36000DD737 /* Debug */,
+				CEDFAED81DF04B36000DD737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDFAED91DF04B36000DD737 /* Build configuration list for PBXNativeTarget "NeemaTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFAEDA1DF04B36000DD737 /* Debug */,
+				CEDFAEDB1DF04B36000DD737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEDFAEDC1DF04B36000DD737 /* Build configuration list for PBXNativeTarget "NeemaTestAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFAEDD1DF04B36000DD737 /* Debug */,
+				CEDFAEDE1DF04B36000DD737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDFAEA61DF04B35000DD737 /* Project object */;
+}
